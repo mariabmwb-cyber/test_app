@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Title Here</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Todo App</title>
 </head>
 <body>
-    <div id="correctedId1">Content 1</div>
-    <div id="correctedId2">Content 2</div>
-    <script src="yourScript.js"></script>
+    <h1>Todo App</h1>
+    <input type="text" id="taskInput" placeholder="Add a new task...">
+    <button id="addButton">Add Task</button>
+    <div>
+        <button id="filterAll">All</button>
+        <button id="filterActive">Active</button>
+        <button id="filterCompleted">Completed</button>
+    </div>
+    <ul id="taskList"></ul>
+    <div id="stats"></div>
+    <script src="script.js"></script>
 </body>
 </html>
